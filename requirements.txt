@@ -1,7 +1,0 @@
-pygame
-gym
-numpy
-stable-baselines3
-torch
-pandas
-matplotlib
