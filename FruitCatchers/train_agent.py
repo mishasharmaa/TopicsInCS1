@@ -47,4 +47,4 @@ model_a2c = A2C("MlpPolicy", env, verbose=1, tensorboard_log="./logs/")
 model_a2c.learn(total_timesteps=500000, callback=a2c_callback)
 model_a2c.save("models/a2c_fruit")
 
-print("\n✅ Training complete. Models and logs saved successfully.")
+print("\n Training complete. Models and logs saved successfully.")
